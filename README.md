@@ -33,7 +33,7 @@ Current labs:
 |---:|---|---|:---:|
 | 01 | [ROS 2 communication basics](#first-exercise-publisher-topic-and-subscriber) | A CLI publisher and subscriber connected through a typed topic | ✅ |
 | 02 | [Python temperature publisher](TASK-02-TEMPERATURE-PUBLISHER.md) | A custom `rclpy` node publishing simulated server temperatures | ✅ |
-| 03 | [Temperature monitor subscriber](TASK-03-TEMPERATURE-MONITOR.md) | A subscriber with logging and a configurable warning threshold | Ready |
+| 03 | [Temperature monitor subscriber](TASK-03-TEMPERATURE-MONITOR.md) | A subscriber with logging and a configurable warning threshold | ✅ |
 | 04 | Launch files and YAML parameters | One command that starts and configures the complete monitor | Planned |
 
 ### Quick navigation
@@ -393,7 +393,7 @@ You will work with:
 
 Add a custom subscriber that reports normal temperatures and emits a warning above a configurable threshold.
 
-Planned command:
+Run the monitor with a configurable warning threshold:
 
 ```bash
 ros2 run homelab_monitor temperature_monitor \
